@@ -1,0 +1,66 @@
+<html>
+
+
+<head>
+<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<!--Links -->
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<script type="text/javascript" src="scripts.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body> 
+ 
+  <div class="container-fluid text-center">
+       
+    <div class="row"> <!-- for title -->
+      <h1> Trigger CSS Transitions to Control Animations </h1>
+      <p>Click the buttons to see the transitions!</p>
+      
+    </div> <!-- end title -->
+    
+    <div class="row"> <!-- for main -->
+      
+      <!-- first row with left and right-->
+      <div class="row">
+        <div class="col-xs-6 text-primary">
+          <h3>Transition: 1</h3>
+          <button onclick="changeBG('box1','#F0F')">Magenta</button>
+<button onclick="changeBG('box1','#0C0')">Green</button>
+<button onclick="changeBG('box1','#9DCEFF')">Origninal</button>
+<div id="box1">Content in box 1 ...</div>
+        </div>
+        <div class="col-xs-6 text-primary">
+          <h3>Transition: 2</h3>
+          <button onclick="fadeOut('box2');">Fade out</button>
+<button onclick="fadeIn('box2');">Fade in</button>
+<div id="box2">Content in box 2 ...</div>
+        </div>
+      </div>
+      
+    
+    </div> <!-- end main -->
+    
+    <div class="row text-center"> <!-- for footer -->
+      <h5><a href="http://www.eleftheriabatsou.com" target="_blank">Eleftheria Batsou</a> | <a href="http://codepen.io/EleftheriaBatsou" target="_blank">Projects</a></h5>
+    </div> <!-- end footer -->
+  
+  </div> <!-- end class container-fluid --> 
+  
+  
+
+  
+</body>
+   
+
+</html>
